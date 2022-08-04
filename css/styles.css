@@ -12660,8 +12660,8 @@ fieldset:disabled .btn {
 }
 
 .nav-logo:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(yellow), color-stop(orange), to(red));
-  background: linear-gradient(yellow, orange, red);
+  background: -webkit-gradient(linear, left top, right top, from(#fa0202), color-stop(43%, #f05d40), to(#fc4b08));
+  background: linear-gradient(90deg, #fa0202 0%, #f05d40 43%, #fc4b08 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -12772,13 +12772,15 @@ fieldset:disabled .btn {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: linear-gradient(45deg, #f1aa4c, #f06819, red);
+  background: -webkit-gradient(linear, left top, right top, from(#fa0202), color-stop(43%, #f05d40), to(#fc4b08));
+  background: linear-gradient(90deg, #fa0202 0%, #f05d40 43%, #fc4b08 100%);
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 .social-media__link:hover {
-  background: linear-gradient(45deg, #f1aa4c, #f06819, red);
+  background: -webkit-gradient(linear, left top, right top, from(#fa0202), color-stop(43%, #f05d40), to(#fc4b08));
+  background: linear-gradient(90deg, #fa0202 0%, #f05d40 43%, #fc4b08 100%);
   background-clip: text;
   font-size: 2rem;
   -webkit-background-clip: text;
@@ -12917,8 +12919,6 @@ fieldset:disabled .btn {
 }
 
 .gallery-pic:hover {
-  min-width: 210px;
-  max-height: 75vh;
   -webkit-filter: grayscale(0);
           filter: grayscale(0);
 }
@@ -12931,8 +12931,8 @@ fieldset:disabled .btn {
   font-size: 3rem;
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  background: -webkit-gradient(linear, left top, left bottom, from(yellow), color-stop(orange), to(red));
-  background: linear-gradient(yellow, orange, red);
+  background: -webkit-gradient(linear, left top, right top, from(#fa0202), color-stop(43%, #f05d40), to(#fc4b08));
+  background: linear-gradient(90deg, #fa0202 0%, #f05d40 43%, #fc4b08 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -13063,8 +13063,31 @@ fieldset:disabled .btn {
   }
 }
 
-.modal {
+.footer {
   position: relative;
+  background: #fa0202;
+  background: -webkit-gradient(linear, left top, right top, from(#fa0202), color-stop(43%, #f05d40), to(#fc4b08));
+  background: linear-gradient(90deg, #fa0202 0%, #f05d40 43%, #fc4b08 100%);
+  margin-top: 3rem;
+}
+
+.footer-box {
+  padding: 2rem;
+}
+
+.name-footer {
+  color: #fff;
+  font-size: 3rem;
+  font-family: 'Princess Sofia', cursive;
+  text-align: center;
+  -webkit-filter: drop-shadow(4px 4px 3.5px #ff2304);
+          filter: drop-shadow(4px 4px 3.5px #ff2304);
+}
+
+.text-footer {
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
 }
 
 @media (max-width: 400px) {

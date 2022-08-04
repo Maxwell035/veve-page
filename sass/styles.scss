@@ -132,7 +132,7 @@
 }
 
 .nav-logo:hover{
-    background: linear-gradient(yellow, orange, red);
+    background: linear-gradient(90deg, rgba(250,2,2,1) 0%, rgba(240,93,64,1) 43%, rgba(252,75,8,1) 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -218,12 +218,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(45deg, rgb(241, 170, 76), rgb(240, 104, 25), red);
+    background: linear-gradient(90deg, rgba(250,2,2,1) 0%, rgba(240,93,64,1) 43%, rgba(252,75,8,1) 100%);
     transition: 0.5s;
 }
 
 .social-media__link:hover{
-    background: linear-gradient(45deg, rgb(241, 170, 76), rgb(240, 104, 25), red);
+    background: linear-gradient(90deg, rgba(250,2,2,1) 0%, rgba(240,93,64,1) 43%, rgba(252,75,8,1) 100%);
     background-clip: text;
     font-size: 2rem;
     -webkit-background-clip: text;
@@ -325,8 +325,6 @@
 }
 
 .gallery-pic:hover{
-    min-width: 210px;
-    max-height: 75vh;
     filter: grayscale(0);
 }
 
@@ -338,7 +336,7 @@
     font-size: 3rem;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(yellow, orange, red);
+    background: linear-gradient(90deg, rgba(250,2,2,1) 0%, rgba(240,93,64,1) 43%, rgba(252,75,8,1) 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -424,8 +422,29 @@
     }
 }
 
-.modal{
+.footer{
     position: relative;
+    background: rgb(250,2,2);
+    background: linear-gradient(90deg, rgba(250,2,2,1) 0%, rgba(240,93,64,1) 43%, rgba(252,75,8,1) 100%);
+    margin-top: 3rem;
+}
+
+.footer-box{
+    padding: 2rem;
+}
+
+.name-footer{
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Princess Sofia', cursive;
+    text-align: center;
+    filter: drop-shadow(4px 4px 3.5px #ff2304);
+}
+
+.text-footer{
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
 }
 
 @media (max-width:400px){
